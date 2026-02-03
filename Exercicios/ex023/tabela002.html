@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: lightgrey;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead {
+            background-color: grey;
+            color: white;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+        .numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+        Anatomia para Tabelas Grandes
+        TABLE
+            HEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>Largest Companies by Marketcap</caption>
+        <thead>
+            <th>Name</th>
+            <th style="width: 100px;">Market Cap</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NVIDIA</td>
+                <td class="numero">$ 4.519 T</td>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td class="numero">$ 4.163 T</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td class="numero">$ 3.968 T</td>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td class="numero">$ 3.143 T</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td class="numero">$ 2.597 T</td>
+            </tr>
+            <tr>
+                <td>Meta</td>
+                <td class="numero">$ 1.786 T</td>
+            </tr>
+            <tr>
+                <td>TSMC</td>
+                <td class="numero">$ 1.770 T</td>
+            </tr>
+            <tr>
+                <td>Saudi Aramco</td>
+                <td class="numero">$ 1.651 T</td>
+            </tr>
+            <tr>
+                <td>Tesla</td>
+                <td class="numero">$ 1.582 T</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
