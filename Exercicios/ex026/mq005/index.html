@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="ClickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <a href="#"><li>Opção 1</li></a>
+                <a href="#"><li>Opção 2</li></a>
+                <a href="#"><li>Opção 3</li></a>
+                <a href="#"><li>Opção 4</li></a>
+                <a href="#"><li>Opção 5</li></a>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, incidunt at? Reprehenderit possimus, quam blanditiis esse sit porro repellat consequatur tempora, dolore praesentium officia aliquid repellendus nihil debitis cumque earum?
+            Corrupti tempora similique quia repellat autem, maiores vitae labore perferendis rerum dignissimos delectus sint error tempore incidunt pariatur odit numquam sapiente earum. In deserunt tenetur enim asperiores repellendus cum ratione!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, inventore quis explicabo ullam deserunt culpa nisi exercitationem provident cumque reprehenderit aliquam, rerum quos quam! Porro architecto officia exercitationem sit laudantium.
+            Corporis voluptas deleniti quam adipisci, itaque molestiae quibusdam tempora, ad eveniet atque laudantium minima voluptates quos molestias ipsa nisi tempore, eaque esse amet! Quisquam perspiciatis voluptatem maxime asperiores dignissimos. Incidunt.
+            Nostrum dolores voluptatibus expedita repudiandae nemo distinctio fuga aspernatur odit corporis, dolore pariatur quidem odio! Officia excepturi nostrum aliquam magnam quia repudiandae laboriosam deleniti libero similique ex nulla, qui eius!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, vitae? Porro, quisquam doloremque aperiam ab libero ipsa, natus iste illo labore aliquid unde ducimus qui explicabo repellendus similique quidem debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quo soluta aspernatur accusantium maxime quae beatae animi doloribus, corporis, molestiae suscipit laudantium facere obcaecati consequatur magnam similique nam ipsam. Fugiat.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus veritatis porro quos, id qui, accusamus sed quibusdam ex, eaque inventore numquam quo ut. Magnam praesentium ipsum corporis recusandae officiis aspernatur!
+            Ipsa labore at reiciendis saepe amet reprehenderit nam beatae maxime iure corrupti quo provident error accusantium suscipit, nesciunt sunt incidunt, cupiditate atque inventore officiis. Optio odio fuga ratione? Modi, consectetur.
+            Eveniet nulla sapiente tenetur illo explicabo est iure nihil fuga velit a officia iste quas, magnam nisi adipisci. Nisi magni aperiam enim laudantium dolores doloribus repellendus, maxime recusandae quaerat minus?
+            Adipisci autem enim optio ducimus similique, voluptatibus nulla voluptatum saepe ipsa dolor harum animi quam expedita veritatis sapiente veniam numquam aperiam eum, nisi incidunt temporibus sit? Dolorem accusamus ab pariatur.
+            Obcaecati mollitia id cumque amet! Unde nesciunt voluptatibus quas amet quidem debitis totam ea aut deleniti incidunt, velit cumque, reiciendis provident, fugiat repudiandae nemo suscipit libero voluptatem veniam. Mollitia, aliquid?</p>
+        </article>
+    </main>
+    <script>
+        function ClickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            }else{
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
