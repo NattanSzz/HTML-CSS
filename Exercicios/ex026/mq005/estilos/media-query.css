@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@media screen and (min-width: 800px) {
+    #burger {
+        display: none;
+    }
+    menu {
+        background-color: darkgrey; 
+        display: block;
+    }  
+    menu ul a {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: black; 
+        background-color: darkgrey;
+    } 
+    menu ul a:hover {
+        background-color: rgb(73, 73, 73);
+        color: white; 
+        padding: 10px;
+    }
+
+    main {
+        width: 800px;
+    }
+}
